@@ -12,9 +12,10 @@ public class App {
 
         thingContainer.add(thing); //call this to refer to thing created when instantiated
         thingContainer.add(thing2);
+        thingContainer.pop();
 
 
-        System.out.println(thingContainer.pop());
+
 
         thingContainer.add(thing3);
         thingContainer.printThings();
